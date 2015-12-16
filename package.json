@@ -1,0 +1,31 @@
+{
+  "name": "js-data-memoryleak",
+  "version": "1.0.0",
+  "description": "Project for debugging js-data memory leak",
+  "main": "test.spec.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smartbank/js-data-memoryleak.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smartbank/js-data-memoryleak/issues"
+  },
+  "homepage": "https://github.com/Smartbank/js-data-memoryleak#readme",
+  "devDependencies": {
+    "es6-promise": "^3.0.2",
+    "jasmine-core": "^2.4.1",
+    "js-data": "^2.8.2",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.19",
+    "q": "^1.4.1"
+  }
+}
